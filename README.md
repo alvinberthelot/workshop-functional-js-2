@@ -75,3 +75,17 @@ After finish this exercise, please commit all your files.
 	git add .
 
 	git commit -m "Exercise 3"
+
+### Exercise 4
+
+Implement the function +asyncYolo()+ in file **_src/exercise4.js_**, the output is always the same, input is not required.
+
+The difficulty is to use the promises defined before to return the result.
+
+All tests are written in file **_test/exercise4.test.js_** and they should pass with success.
+
+After finish this exercise, please commit all your files.
+
+	git add .
+
+	git commit -m "Exercise 4"

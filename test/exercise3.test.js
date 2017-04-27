@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const injectStar = require('../src/exercise3').injectStar;
 
-describe.only('GIVEN function injectStar', function() {
+describe('GIVEN function injectStar', function() {
 
   it('WHEN string is empty THEN should return an empty string', function() {
     const input = '';
