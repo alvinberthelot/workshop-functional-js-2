@@ -34,7 +34,7 @@ You don't understand what you need to do ?
 
 Don't stress tests are written in file **_test/exercise1.test.js_** to explain the behaviour of the function.
 
-To implement with function, you should do in a functional way WITHOUT using Lodash.
+To implement the function, you should do in a functional way WITHOUT using Lodash.
 
 All tests should pass with success.
 
@@ -57,3 +57,21 @@ After finish this exercise, please commit all your files.
 	git add .
 
 	git commit -m "Exercise 2"
+
+### Exercise 3
+
+Implement the function +injectStar(input)+ in file **_src/exercise3.js_** where the input is a string, the output the same string but with * when a pair is found.
+
+You don't understand what you need to do ?
+
+All tests are written in file **_test/exercise3.test.js_** and they should pass with success.
+
+To implement the function, you should do in a RECURSIVE WAY.
+
+:point_right: [split](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/split) could help you.
+
+After finish this exercise, please commit all your files.
+
+	git add .
+
+	git commit -m "Exercise 3"
