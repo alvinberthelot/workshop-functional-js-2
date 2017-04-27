@@ -43,3 +43,17 @@ After finish this exercise, please commit all your files.
 	git add .
 
 	git commit -m "Exercise 1"
+
+### Exercise 2
+
+The function +reverseYolo(input)+ in file **_src/exercise2.js_** has been implemented by an another developper and the test is present in **_test/exercise2.js_**, but he forgot to commit the input to pass the test ...
+
+Could you guess the input "whereIsMyMind" please ? Becareful only this input should change.
+
+The test should pass with success.
+
+After finish this exercise, please commit all your files.
+
+	git add .
+
+	git commit -m "Exercise 2"
