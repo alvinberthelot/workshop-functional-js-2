@@ -1,6 +1,6 @@
-# workshop-functional-js-1
+# workshop-functional-js-2
 
-Workshop to learn basic functional programming in JavaScript, level 2.
+Workshop (number 2) to learn basic functional programming in JavaScript.
 
 ## Commands
 

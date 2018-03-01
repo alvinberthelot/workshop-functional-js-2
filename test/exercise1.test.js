@@ -15,7 +15,7 @@ describe('GIVEN function partition', function() {
         age: '55',
         active: true
       }
-    ]
+    ];
 
     const result1 = [
       [
@@ -26,7 +26,7 @@ describe('GIVEN function partition', function() {
         }
       ],
       []
-    ]
+    ];
 
     const result2 = [
       [],
@@ -37,7 +37,7 @@ describe('GIVEN function partition', function() {
           active: true
         }
       ]
-    ]
+    ];
 
     expect(partition(collection, value => value.active)).to.eql(result1);
     expect(partition(collection, value => value.age < 30)).to.eql(result2);
@@ -71,7 +71,7 @@ describe('GIVEN function partition', function() {
         age: '18',
         active: false
       }
-    ]
+    ];
 
     const result1 = [
       [
@@ -103,7 +103,7 @@ describe('GIVEN function partition', function() {
           active: false
         }
       ]
-    ]
+    ];
 
     const result2 = [
       [
@@ -135,7 +135,7 @@ describe('GIVEN function partition', function() {
           active: false
         }
       ]
-    ]
+    ];
 
     expect(partition(collection, value => value.active)).to.eql(result1);
     expect(partition(collection, value => value.age < 30)).to.eql(result2);

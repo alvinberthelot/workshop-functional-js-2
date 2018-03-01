@@ -1,8 +1,8 @@
 const chalk = require('chalk');
-const exercise1 = require('./src/exercise1');
-const exercise2 = require('./src/exercise2');
-const exercise3 = require('./src/exercise3');
-const exercise4 = require('./src/exercise4');
+// const exercise1 = require('./src/exercise1');
+// const exercise2 = require('./src/exercise2');
+// const exercise3 = require('./src/exercise3');
+// const exercise4 = require('./src/exercise4');
 
 const exercise0 = {
   run: () => {
